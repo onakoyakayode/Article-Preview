@@ -11,10 +11,6 @@
   <title>Frontend Mentor | Article preview component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
@@ -41,13 +37,14 @@
           <h5 class="date">28 Jun 2020</h5>
         </div>
 
-        <div>
+        <div class="share">
           <a class="link-share" onclick="shareLink()" href="#"><img class="icon-share" src="./images/icon-share.svg" alt="icon-share"></a>
           <ul class="navbar" id="share">
             <h4>SHARE</h4>
             <li><a href="#"><img class="facebook" src="./images/icon-facebook.svg"></a></li>
             <li><a href="#"><img class="twitter" src="./images/icon-twitter.svg"></a></li>
             <li><a href="#"><img class="pin-interest" src="./images/icon-pinterest.svg"></a></li>
+            <a class="link-share" onclick="shareLink()" href="#"><img class="icon-sharemobile" src="./images/icon-share.svg" alt="icon-share"></a>
           </ul>
         </div>
       </div>
@@ -56,7 +53,8 @@
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Onakoya Kayode</a>.
   </div>
+  <script src="App.js"></script>
 </body>
 </html>
