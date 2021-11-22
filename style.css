@@ -291,6 +291,7 @@ section{
         text-align: center;
         position: absolute;
         bottom: -14vh;
+        display: none;
     }
 }
 
@@ -437,6 +438,7 @@ section{
         text-align: center;
         position: absolute;
         bottom: -26vh;
+        display: none;
     }
 }
 
