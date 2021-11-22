@@ -173,7 +173,7 @@ section{
     }
     
     .row2 h1 {
-        font-size: 1rem;
+        font-size: 1.05rem;
         font-family: 'Manrope', sans-serif;
         font-weight: 700;
         color: hsl(217, 19%, 35%);
@@ -290,7 +290,7 @@ section{
         font-size: 11px;
         text-align: center;
         position: absolute;
-        bottom: -13vh;
+        bottom: -14vh;
     }
 }
 
@@ -328,7 +328,7 @@ section{
     }
     
     .row2 p {
-        font-size: 1.1rem;
+        font-size: 1rem;
         font-weight: 500;
         font-family: 'Manrope', sans-serif;
         color: hsl(212, 23%, 69%);
@@ -436,7 +436,7 @@ section{
         font-size: 11px;
         text-align: center;
         position: absolute;
-        bottom: -20vh;
+        bottom: -26vh;
     }
 }
 
